@@ -1,0 +1,26 @@
+{
+  "name": "genpark-openrouter-fallback-provider-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Timeout and error failover provider routing.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "openrouter",
+    "fallback"
+  ],
+  "inputs": {
+    "primary_model": {
+      "type": "string"
+    },
+    "error_code": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "fallback_model": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
